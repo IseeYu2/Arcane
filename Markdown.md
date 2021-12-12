@@ -3,20 +3,22 @@ Ovo je dokument koji prezentira moj c++ kod
 
 ## Program
 ---
-'''cpp
+```cpp
 #include <iostream>
+
 using namespace std;
-​
+
 int main() {
-​
-    int a = 0;
-    cout << "Upisite troznamenkasti broj: ";
+
+    int a=0;
+	cout << "Unesite troznamenkasti broj: ";
     cin >> a;
-    
-    system("pause");
+
+	system("PAUSE");
     return 0;
+
 }
-'''
+```
 ### Pokretanje programa
 
 -Preuzmite [DevCpp] (https://sourceforge.net/projects/orwelldevcpp/)
@@ -26,9 +28,9 @@ int main() {
 
 ### TODO
 Todo lista za nadopunu programa:
--Ispisati poruku za unos broja
--Omogućiti unos broja
--Provjeriti je li broj troznamenkast
--Ispisati sumu znamenki broja
+-[x] Ispisati poruku za unos broja
+-[x] Omogućiti unos broja
+-[ ] Provjeriti je li broj troznamenkast
+-[ ] Ispisati sumu znamenki broja
 
-Povratak na vrh <a href="">Povratak na Vrh</a>
+<a href="https://github.com/IseeYu2/Arcane/blob/main/Markdown.md">Povratak na Vrh</a>
